@@ -3,7 +3,6 @@ template: page
 title: About me
 socialImage: /media/oracle.jpg
 slug: me
-draft: true
 ---
 ![Me at Oracle Park](/media/oracle.jpg)
 
