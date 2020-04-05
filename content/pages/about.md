@@ -1,9 +1,10 @@
 ---
-title: "About me"
-template: "page"
-socialImage: "/media/oracle.jpg"
+template: page
+title: About me
+socialImage: /media/oracle.jpg
+slug: me
+draft: true
 ---
+![Me at Oracle Park](/media/oracle.jpg)
 
-![Mert at Oracle Park](/media/oracle.jpg)
-
-Hi! I'm Mert, a software engineer working at [Zeplin](https://zeplin.io). I'm focusing mainly on engineering for the web and open source. I'm a big fan of continuous learning. I love solving algorithmic puzzles, writing open source code and contributing to projects on GitHub. You can find all of my projects here. They all are open source.
+Hi, I'm Mert 👋 I'm a software engineer at [Zeplin](https://zeplin.io), working as a webapp engineer. This is my personal website that I occasionally write blog posts and share my open source projects.
