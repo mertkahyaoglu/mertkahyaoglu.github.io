@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "Mert Kahyaoğlu",
+  "name": "personal",
   "description": "My personal website",
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
