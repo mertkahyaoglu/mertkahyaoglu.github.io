@@ -4,7 +4,7 @@ backend:
 
 media_folder: "static/media"
 public_folder: "/media"
-site_url: https://keen-aryabhata-eb1ec4.netlify.com/
+site_url: https://mert-kahyaoglu.com
 publish_mode: editorial_workflow
 
 collections:
