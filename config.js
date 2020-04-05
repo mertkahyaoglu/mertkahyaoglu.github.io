@@ -3,12 +3,12 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Mert Kahyaoğlu',
+  subtitle: 'Software Engineer',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'mertkahyaoglu',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-63041764-1',
   useKatex: false,
   menu: [
     {
@@ -19,25 +19,21 @@ module.exports = {
       label: 'About me',
       path: '/pages/about'
     },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Mert Kahyaoğlu',
+    photo: '/me.png',
+    bio: 'Hi! I\'m Mert, a software engineer working at Zeplin.',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'mertkahyaoglu93@gmail.com',
+      facebook: '',
+      telegram: '',
+      twitter: 'mertkahyaoglu',
+      github: 'mertkahyaoglu',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'mertkahyaoglu48',
+      instagram: 'mert_kahyaoglu',
       line: '',
       gitlab: '',
       weibo: '',
