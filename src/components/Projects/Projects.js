@@ -21,8 +21,8 @@ const Projects = () => {
               </a>
             </h2>
             <p className={styles['projects__list-item-description']}>{project.description}</p>
-            <a className={styles['projects__list-item-github']} href={project.github} rel="noopener" target="_blank">
-              <img width="18" src="/github.svg" alt="github"/> GitHub
+            <a className={styles['projects__list-item-github']} href={`https://github.com/${project.github}`} rel="noopener" target="_blank">
+              <img alt="GitHub stars" src={`https://img.shields.io/github/stars/${project.github}?style=social`} />
             </a>
           </div>
         ))}

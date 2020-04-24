@@ -4,10 +4,14 @@
 
   &__list {
     display: grid;
-    padding: 48px 0;
+    padding: 36px 0;
     grid-template-columns: repeat(auto-fill, calc(50% - 24px));
     grid-gap: 48px;
     width: 100%;
+
+    @media (max-width: 960px) {
+      grid-template-columns: repeat(auto-fill, 100%);
+    }
 
     &-item {
       &-meta {  
@@ -44,6 +48,7 @@
       &-github {
         display: flex;
         img {
+          height: 24px;
           margin-right: 6px;
         }
       }
