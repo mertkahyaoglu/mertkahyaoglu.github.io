@@ -17,13 +17,13 @@ const PageTemplate = ({ data }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { html: pageBody } = data.markdownRemark;
   const { frontmatter } = data.markdownRemark;
-  const { title: pageTitle, description: pageDescription, socialImage } = frontmatter;
+  const { title: pageTitle, description: pageDescription, socialImage, slug } = frontmatter;
   const metaDescription = pageDescription !== null ? pageDescription : siteSubtitle;
 
   return (
     <Layout title={`${pageTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImage} >
       <Sidebar />
-      <Page title={pageTitle}>
+      <Page title={pageTitle} slug={slug}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
       </Page>
     </Layout>
@@ -40,6 +40,7 @@ export const query = graphql`
         date
         description
         socialImage
+        slug
       }
     }
   }

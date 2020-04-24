@@ -38,6 +38,13 @@ const useSiteMetadata = () => {
             subtitle
             copyright
             disqusShortname
+            projects {
+              name
+              description
+              web
+              github
+              tag
+            }
           }
         }
       }

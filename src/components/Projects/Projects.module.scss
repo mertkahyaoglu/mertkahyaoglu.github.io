@@ -1,0 +1,54 @@
+@import '../../assets/scss/variables';
+
+.projects {
+
+  &__list {
+    display: grid;
+    padding: 48px 0;
+    grid-template-columns: repeat(auto-fill, calc(50% - 24px));
+    grid-gap: 48px;
+    width: 100%;
+
+    &-item {
+      &-meta {  
+        &-tag {
+          font-size: $typographic-small-font-size;
+          color: $color-secondary;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+  
+      }
+
+      &-title {
+        font-size: $typographic-base-font-size * 1.475;
+        line-height: 1.5;
+        margin: 0 0 12px 0;
+
+        &-link {
+          color: $color-base;
+  
+          &:hover,
+          &:focus {
+            color: $color-base;
+            border-bottom: 1px solid $color-base;
+          }
+  
+        }
+      }
+
+      &-description {
+        margin: 0 0 12px 0;
+      }
+
+      &-github {
+        display: flex;
+        img {
+          margin-right: 6px;
+        }
+      }
+    }
+
+  }
+
+}
