@@ -26,7 +26,7 @@ module.exports = {
   ],
   author: {
     name: 'Mert Kahyaoğlu',
-    photo: '/me.png',
+    photo: '/me.jpg',
     bio: 'Hi! I\'m Mert, a software engineer working at Zeplin.',
     contacts: {
       email: 'mertkahyaoglu93@gmail.com',
