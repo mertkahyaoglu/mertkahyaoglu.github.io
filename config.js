@@ -69,6 +69,13 @@ module.exports = {
       tag: 'flutter'
     },
     {
+      name: 'Tetris',
+      description: 'Classic tetris game built with React & Redux.',
+      web: 'https://next-level-tetris.netlify.app/',
+      github: 'mertkahyaoglu/tetris',
+      tag: 'react, redux'
+    },
+    {
       name: 'Tree View',
       description: 'Example of rendering a tree.',
       web: 'http://mertkahyaoglu.github.io/tree-view',
