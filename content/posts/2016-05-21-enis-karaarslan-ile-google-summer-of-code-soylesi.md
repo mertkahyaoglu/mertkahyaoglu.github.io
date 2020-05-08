@@ -1,5 +1,5 @@
 ---
-title: Enis Karaarslan ile Google Summer of Code Deneyimi üzerine söyleşi (Turkish)
+title: (Turkish) Enis Karaarslan ile Google Summer of Code Deneyimi üzerine söyleşi
 template: "post"
 category: "personal"
 date: "2016-05-21T00:00:00.000Z"
@@ -7,7 +7,7 @@ description: Mert Kahyaoğlu, MSKÜ Bilgisayar Mühendisliği Bölümü’nün e
 slug: "enis-karaarslan-ile-google-summer-of-code-soylesi"
 draft: false
 tags:
-  - google summer of code
+  - gsoc
   - enis karaarslan
 ---
 
@@ -21,7 +21,7 @@ Mert Kahyaoğlu, **MSKÜ Bilgisayar Mühendisliği Bölümü**’nün en başar�
 
 Selamlar, ben Mert Kahyaoğlu. Muğla, Marmaris doğumluyum. Eğitimimi üniversiteye kadar Marmaris’te tamamladım. Üniversitede de fazla uzaklara gitmeyip Muğla Sıtkı Koçman Üniversitesi’ni tercih ettim. Daha sonrasında birkaç yatay geçiş girişimim oldu ama, seçilmeme rağmen gitmedim. Verdiğim en radikal kararlardan biridir. İyi ki de üniversitemi bırakmamışım diyorum. Kendimi geliştirebileceğim çok iyi bir ortamı kaçırmamış oldum.
 
-Ben, web teknolojileri ile uğraşan birisiyim. Web ortamında uygulama geliştirmeyi, yeni teknolojileri keşfetmeyi ve tabi ki açık kaynaklı projelere katkı sağlamayı seviyorum. Bana [kişisel web sayfamdan](http://mert-kahyaoglu.com) ulaşabilir, açık kaynaklı projelerime yine buradan göz atabilirsiniz.
+Ben, web teknolojileri ile uğraşan birisiyim. Web ortamında uygulama geliştirmeyi, yeni teknolojileri keşfetmeyi ve tabii ki açık kaynaklı projelere katkı sağlamayı seviyorum. Bana [kişisel web sayfamdan](http://mert-kahyaoglu.com) ulaşabilir, açık kaynaklı projelerime yine buradan göz atabilirsiniz.
 
 **Google Yaz Kodlaması (Google Summer of Code – GSoC)’ndan nasıl haberiniz oldu?**
 
@@ -49,13 +49,15 @@ Bunların dışında kendi projelerimde kullandığım teknolojilerde bir eksik 
 
 **Başvuru sürecinde ne tür elemeler oldu, proje danışmanları nelere dikkat ederek seni seçti?**
 
-Geçen seneki Summer of Code’a yeterince hazırlanamadığım için başvuramadım. Bu senekine hazırlanmam için yeterince zamanım oldu. Github ile aram iyi olduğundan ve Atom projesine yeterince katkı sağladığımdan  dolayı açıkcası bu sene Atom’dan bir projeye seçilirim diye düşünüyordum. Ama Github ekibi Summer of Code için diğer projelerine önem vermeyi seçmiş. Öncelikleri Jekyll ve Classroom gibi projeler olmuş. Biraz ümitsizliğe düşsem de yine de proje listelerine bir göz attım. Github proje listelerini kendi üzerinden bir repository (depo) açarak issue’lar şeklinde paylaşmış. Diğer organizasyonlar kendi siteleri üzerinden yayınlıyorlar. Göz gezdirirken arada “**Administrative GUI**” kelimeleri direkt dikkatimi çekti. Projede istenen Jekyll için bir admin paneli oluşturmaktı. Şu anki Jekyll’ı kullanabilmeniz için “komut satırı”‘nı kullanabiliyor olmanız gerekiyor. Jekyll ekibi daha genel bir kitleye ulaşabilmek için WordPress’teki admin paneli gibi bir arayüz geliştirilmesi gerektiğini düşünmüş.
+Geçen seneki Summer of Code’a yeterince hazırlanamadığım için başvuramadım. Bu senekine hazırlanmam için yeterince zamanım oldu. Github ile aram iyi olduğundan ve Atom projesine yeterince katkı sağladığımdan  dolayı açıkcası bu sene Atom’dan bir projeye seçilirim diye düşünüyordum. Ama Github ekibi Summer of Code için diğer projelerine önem vermeyi seçmiş. Öncelikleri Jekyll ve Classroom gibi projeler olmuş. Biraz ümitsizliğe düşsem de yine de proje listelerine bir göz attım. Github proje listelerini kendi üzerinden bir repository (depo) açarak issue’lar şeklinde paylaşmış. Diğer organizasyonlar kendi siteleri üzerinden yayınlıyorlar. Göz gezdirirken arada “**Administrative GUI**” kelimeleri direkt dikkatimi çekti. Projede istenen [Jekyll](https://jekyllrb.com/) için bir admin paneli oluşturmaktı. Şu anki Jekyll’ı kullanabilmeniz için “komut satırı”‘nı kullanabiliyor olmanız gerekiyor. Jekyll ekibi daha genel bir kitleye ulaşabilmek için WordPress’teki admin paneli gibi bir arayüz geliştirilmesi gerektiğini düşünmüş.
 
 ![mertkahyaoglu_gsoc_proje.png](/media/mertkahyaoglu_gsoc_proje.png)
 
 WordPress ile onlarca site oluşturmuş ve ön yüzlerini tasarlamış biri olarak bu proje tam benlik dedim ve nasıl yaparım diye düşünmeye başladım. Bu sıralar Electron (Github’ın web teknolojileri ile her platformda masaüstü uygulama geliştirmenizi sağlayan bir framework'ü) ve React.js ile haşır neşir olduğum için bu projede rahatlıkla kullanabileceğimi düşündüm. Hatta bir adım ileriye gidip bir [demo uygulamasını](https://github.com/mertkahyaoglu/jekyll-admin-demo) kodlamaya başladım. Bir aylık başvuru sürecinin bir haftasını demoya ayırdım. Seçildikten sonra öğrendim ki Github’taki mentorlarımdan biri bu demoyu çok beğenmiş. Seçilmemde büyük katkısı olduğunu düşünüyorum.
 
 Başvuru sürecinde bir diğer önemli kısım ise “Proposal“, başvuru metni. Buna gerçekten çok önem vermeniz gerekiyor. Hatta bölüm hocalarınızdan geri dönüş almanız sizin başvurunuzu çok daha ileri seviyeye getirmenizi sağlayacaktır. Buradan danışman hocam **İzzet Pembeci**‘ye de teşekkürlerimi iletmek istiyorum. Kendisi başvuru metnimi geliştirmemde bana çok yardımcı oldu. Kısaca özetlemek gerekirse; bir giriş kısmı (projeye ne kadar hakim olduğunuzu göstereceğiniz, genel bilgiler verdiğiniz yer), neler yapmak istediğiniz kısmı (yaratıcılığınızı göstereceğiniz yer), nasıl yapacağınız kısmı (teknik bilgilerden bahsedeceğiniz kısım), zaman çizelgesi (projeyi gerçekten planladığınızı ve bitirebilecek bilgiye sahip olduğunuzu gösteren yer) ve son olarak da “neden ben?” kısmı olarak başvuru metnimi oluşturdum. “Neden ben?” bölümünde geçmişte yaptığınız açık kaynak katkılarından, projelerinizden bahsetmeniz sizi bir adım öne atıyor. Benim bir artımda Atom’a yaptığım katkılardan dolayı Github’ta çalışan yazılımcılar ile yakınlığım oldu. Çünkü birçoğu ile zaten emailleşip chatleşiyorduk, Github üzerinden tartışıyorduk. Ayrı bir ekip olsada onların referans olduğunu düşünüyorum. Verebileceğim bir tavsiye de ilgilendiğiniz projenin mentorları ile mail listesi ve ya chat kanalları ile direkt iletişime geçmeniz sorular sormanız olur. Böylece isminiz hafızalarına yerleşmiş olacak ve sizin ne kadar istekli olduğunuzu görmüş olacaklar.
+
+<i>GSOC için hazırladığım proposal'a [buradan](https://gist.github.com/mertkahyaoglu/394c265e284f8cb31857cf176e9c7b73) ulaşabilirsiniz.</i>
 
 **GSoC’a katılmak isteyecek kişiler, sence öncelikle kendilerini hangi konuda yetiştirmeliler?**
 

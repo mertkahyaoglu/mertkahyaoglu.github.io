@@ -1,11 +1,13 @@
 ---
-title: React 16 Öne Çıkan Özellikleri
+title: (Turkish) React 16 Öne Çıkan Özellikleri
 template: "post"
 category: "react"
 date: "2017-10-02T00:00:00.000Z"
 description: "Bu yazıda uzunca süredir beklenen yeni React 16 (Kod Adı: Fiber) versiyonunun öne çıkan özelliklerinden kısaca bahsedeceğim."
 draft: false
 slug: "react-16-one-cikan-ozellikleri"
+tags:
+  - react
 ---
 
 Bu yazıda uzunca süredir beklenen yeni React 16 (Kod Adı "Fiber") versiyonunun öne çıkan özelliklerinden kısaca bahsedeceğim. Listelemek gerekirse;

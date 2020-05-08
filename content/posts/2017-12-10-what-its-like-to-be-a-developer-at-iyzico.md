@@ -7,6 +7,9 @@ description: "I have been working at iyzico as a frontend engineer for almost 3 
 slug: "what-its-like-to-be-a-developer-at-iyzico"
 draft: false
 socialImage: "/media/iyzico-first-day.jpeg"
+tags:
+  - dev experience
+  - iyzico
 ---
 
 I have been working at iyzico as a frontend engineer for almost 3 months. From the perspective of a relatively newcomer, I want to share my experiences during these 3 months.

@@ -1,5 +1,5 @@
 ---
-title: 'NPM''e büyük rakip: Facebook''tan Yarn (Turkish)'
+title: "(Turkish) NPM'e büyük rakip: Facebook'tan Yarn"
 template: "post"
 category: "dev tools"
 date: "2016-10-30T00:00:00.000Z"
