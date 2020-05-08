@@ -62,6 +62,13 @@ module.exports = {
       tag: 'react'
     },
     {
+      name: 'Storybook for Zeplin',
+      description: 'Storybook addon that embeds Zeplin resources such as screens and components in the addon panel for better design-development workflow.',
+      web: 'https://www.npmjs.com/package/storybook-zeplin',
+      github: 'mertkahyaoglu/storybook-zeplin',
+      tag: 'react, typescript'
+    },
+    {
       name: 'Booklines',
       description: 'Mobile app to store your favourite book lines.',
       web: 'https://play.google.com/store/apps/details?id=com.mertkahyaoglu.booklines',
