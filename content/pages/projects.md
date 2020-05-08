@@ -4,5 +4,5 @@ title: Projects
 slug: projects
 ---
 
-Here are my recent open source projects;
+Here are some of my open source projects. Visit my GitHub page for more.
 
